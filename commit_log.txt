@@ -1,2 +1,3 @@
 - Commit 2 (Data Pipeline): Build the document loader and text chunker to process the 1,000+ unstructured clinical papers. Integrate HuggingFace embeddings to vectorize the chunks.
 - Commit 3 (Vector Store & RAG): Instantiate ChromaDB, load the vectorized clinical data, and build the retrieval mechanism. Connect the retriever to the local Llama 3 inference pipeline.
+- Commit 4 (Benchmarking): Write a strict benchmarking script using a ground-truth Q&A JSON dataset to evaluate the RAG outputs and measure the reduction in hallucination rates.
