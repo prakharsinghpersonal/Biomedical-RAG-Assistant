@@ -1,0 +1,1 @@
+- Commit 2 (Data Pipeline): Build the document loader and text chunker to process the 1,000+ unstructured clinical papers. Integrate HuggingFace embeddings to vectorize the chunks.
