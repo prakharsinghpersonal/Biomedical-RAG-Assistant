@@ -1,0 +1,1 @@
+- Extend Biomedical-RAG-Assistant by replacing the custom orchestration logic with LangChain or LlamaIndex to standardize the agentic workflow. Integrate a PostgreSQL logging backend to meticulously track query latency, token usage costs, and user prompt history. Update the README with error analysis benchmarks and document compliance-ready data handling steps.
